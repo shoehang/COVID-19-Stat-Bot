@@ -1,0 +1,12 @@
+Files inside this extensions directory serve as groupings of similar functionalities.
+
+Properties of these files:
+
+- Each cog is a Python class that subclasses commands.Cog.
+- Every command is marked with the commands.command() decorator.
+- Every listener is marked with the commands.Cog.listener() decorator.
+- Cogs are then registered with the Bot.add_cog() call.
+- Cogs are subsequently removed with the Bot.remove_cog() call.
+
+Source: https://discordpy.readthedocs.io/en/latest/ext/commands/cogs.html
+As of: December 20th, 2020 5:00PM EST
