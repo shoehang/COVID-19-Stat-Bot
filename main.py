@@ -41,7 +41,7 @@ except Exception as e:
 	sys.exit()
 
 # PASTE TOKEN HERE
-token = 'Nzg5MjkxMDkzMzkyODgzNzgy.X9v6nA.NdSPuPm0lk8fKPVFQS3uG-75PrE'
+token = ''
 
 # run with token
 bot.run(token)
