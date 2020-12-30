@@ -15,6 +15,8 @@ bot.remove_command('help')\
 # params: client context, extension filename
 @bot.command()
 async def load(context, functionality):
+	"""Dev use only, for reloading cogs.
+	Parameters: Ext. Name | Example: '>load covidstat"""
 	try:
 		bot.load_extension(F'extensions.{functionality}')
 		await context.send(F'{functionality} commands are now enabled.')
@@ -25,6 +27,8 @@ async def load(context, functionality):
 # params: client context, extension filename
 @bot.command()
 async def unload(context, functionality):
+	"""Dev use only, for reloading cogs.
+	Parameters: Ext. Name | Example: '>unload covidstat"""
 	try:
 		bot.unload_extension(F'extensions.{functionality}')
 		await context.send(F'{functionality} commands are now disabled.')
