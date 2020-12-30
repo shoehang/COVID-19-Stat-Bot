@@ -18,6 +18,7 @@ This is a bot for discord that supports a variety of commands that provide stati
 7. Navigate to the menu on the left-hand-side and select "OAuth2."
 8. Checkbox the "bot" option for SCOPES menu and copy the generated link.
 9. Enter link into browser and invite to server.
+   - You must have the "Manage Server" permission on the desired server in order for it to appear in the invite menu.
 ```
 
 ## Bot TL:DR
