@@ -38,7 +38,7 @@ This is a bot for discord that supports a variety of commands that provide stati
 - To see all available commands:
   - *>help*
 - To see help with specific command:
-  - *>help <name of command>*
+  - *>help 'name of command'*
 
 ### Things to note
 
